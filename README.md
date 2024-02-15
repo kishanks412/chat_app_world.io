@@ -13,10 +13,13 @@ To run this project on your local machine, follow these steps:
     Replace `PORT_VALUE` with the port number you want to use for the backend server.
 
 - Add the following variables to the `.env` file in the `server` directory:
+
     `FRONTEND_URL=`
+
     `PORT=`
 
     Give the port number you want to use for the backend server.
+    When you get the frontend url after running the frontend code. Give that link to `FRONTEND_URL=`
 
 ## Clone the Repository
 
@@ -45,7 +48,7 @@ To run this project on your local machine, follow these steps:
 
 - Start the React app by running:  `npm start`
 
-and now when you get the frontend url pate that link to the FRONTEND_URL of server's .env file
+when you get the frontend url pate that link to the FRONTEND_URL of server's .env file
 
 
 ## Added both the env file's screenshot
