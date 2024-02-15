@@ -33,15 +33,15 @@ app.use(
   
   
   io.on("connection", (socket) => {
-    console.log("User Connected", socket.id);
+    // console.log("User Connected", socket.id);
     
     socket.on("message", ({ message }) => {
-      console.log({ message });
+      // console.log({ message });
       io.emit("receive-message", message);
     });
     
     socket.on("disconnect", () => {
-      console.log("User Disconnected", socket.id);
+      // console.log("User Disconnected", socket.id);
     });
   });
   
